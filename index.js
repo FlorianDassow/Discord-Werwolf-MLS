@@ -17,7 +17,7 @@ const
 const
 {
     token,
-} = require('./example-token.json');
+} = process.env.token;
 
 // Gets the commands from their files in the commands folder.
 // Only takes *.js files.
